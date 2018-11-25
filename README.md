@@ -2,9 +2,23 @@
 
 A challenge for those interested in collaborating.
 
+# Usage
+
+**Note**: default arguments will be used if no arguments are provided.
+
+``` sh
+$ python main.py --cities=<CITIES_CSV_PATH> --points=<POINTS_CSV_PATH> --output=<OUTPUT_CSV_PATH>
+```
+
+# Testing
+
+``` sh
+$ python -m unittest test_search.py
+```
+
 ## Programming language
 
-We expect you to provide submissions in compilable python 3.6 or 3.7 code
+Written and tested in python 3.6.
 
 ## Details and input files
 
@@ -16,6 +30,3 @@ Example input cities: [Example cities](cities.csv)
 
 Example input points: [Example points](points.csv)
 
-## Submission
-
-Please submit your source code via email or fork the project, edit & enhance the python class main.py and submit back
