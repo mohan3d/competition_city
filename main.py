@@ -98,6 +98,7 @@ def main():
 
     # Write output.
     write_output(output_path, points, matched_cities)
+    print('matching cities written to {}'.format(output_path))
 
 
 if __name__ == '__main__':
